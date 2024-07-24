@@ -7,10 +7,10 @@ div_formulario.className = "div-formulario";
 
 /* lista de elementos */
  let formulario = [
-    {nombre:"login",link:"https"},
-    {nombre:"formulario1",link:"https"},
-    {nombre:"formulario2",link:"https"},
-    {nombre:"formulario3",link:"https"},
+    {nombre:"login",link:"componentes/loging/loging.html"},
+    {nombre:"formulario1",link:"#3"},
+    {nombre:"formulario2",link:"#4"},
+    {nombre:"formulario3",link:"#5"},
 
     ];
 /* for each */ // es una funcio
