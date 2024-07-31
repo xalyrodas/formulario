@@ -8,9 +8,11 @@ div_formulario.className = "div-formulario";
 /* lista de elementos */
  let formulario = [
     {nombre:"login",link:"componentes/loging/loging.html"},
-    {nombre:"formulario1",link:"#3"},
-    {nombre:"formulario2",link:"#4"},
-    {nombre:"formulario3",link:"#5"},
+    {nombre:"formulario De Contacto",link:"formularioDeContacto/contacto.html"},
+    {nombre:"formulario De Registro",link:"formularioDeRegistro/contacto.html"},
+    {nombre:"formulario De Búsqueda",link:"formularioDeBusqueda/busqueda.html"},
+    {nombre:"formulario De Pedido Compras",link:"formularioDePeriodoDeCompras"},
+    {nombre:"formulario De Comentarios Reseñas",link:"formularioDeComentariosReseñas"},
 
     ];
 /* for each */ // es una funcio
