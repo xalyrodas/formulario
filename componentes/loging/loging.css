@@ -1,28 +1,27 @@
 .box-loging{
     width: 100%;
     max-width: 120rem;
-    height: 60rem;
+    height: 50rem;
     margin: auto;
     margin-top: 4.5%;
     border: 1px solid black;    
-
 
     display: grid;
     grid-template-columns: 60rem auto;
 }
 .box-loging .formulario{
-   height:50%;
-    padding: 3rem;
-
+    height:40rem;
+    padding: 10rem 12rem;
+    gap: 1rem;
     display: grid;
     grid-template-columns: repeat(8 1fr);
     grid-template-rows: repeat(8, 1fr);
-    gap: 1rem;
+   
 }
 .box-loging .logo{
     grid-column: 1/9;
     font-size: 20px;
-    font-weight: bold;
+   
 }
 
 .box-loging h2{
@@ -43,7 +42,6 @@
     
 }
 .box-loging .btn-face img{
-    width: px;
     height: 30px;
     border-radius: 10px;
 }
@@ -59,7 +57,6 @@
     color: white;
 }
 .box-loging .btn-xing img{
-    width: 50;
     height: 30px;
     border-radius: 10px;
 }
@@ -70,17 +67,17 @@
     margin-top: -30px;
     
 }
-.box-loging  #login {
+  #login {
     grid-column: 1/9;
     grid-row:4/5;
  }
  
- .box-loging  #login label {
+  #login label {
      display: flex;
      flex-direction: column;
  }
  
- .box-loging #login input {
+ #login input {
      height: 4rem;
      border: none;
      outline: none;
@@ -90,19 +87,17 @@
      border-bottom: 2px solid rebeccapurple;
  }
  
- .box-loging #login .opciones span {
+  #login .opciones span {
      color: black;
  }
  
- .box-loging #login .opciones {
+ #login .opciones {
      display: flex;
      justify-content: space-between;
      align-items: center;
  }
  
  .box-loging #login .opciones label {
-     font-size: 1.5rem;
- 
      display: flex;
      flex-direction: row;
      align-items: center;
@@ -128,3 +123,8 @@
      background-color: gray;
      color: white;
  }
+ .mg1{
+    width: 60rem;
+    height: 50rem;
+ }
+
