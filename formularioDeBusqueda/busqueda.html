@@ -7,9 +7,53 @@
     <link rel="stylesheet" href="busqueda.css">
     <link rel="stylesheet" href="../config/config.css">
 
+    <!-- TIPOGRAFIA -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Jura:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- ICONOS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
 </head>
 <body>
-    <h1>hola</h1>
+    
+    <section class="secFormBusqueda">
+        <div class="cajonAFB">
+            <a href="#" class="aFlight">FLIGHTS</a>
+            <a href="#" class="opFormB">HOTELS</a>
+            <a href="#" class="opFormB">RENTAL CAR</a>
+            <a href="#" class="opFormB">FOURTH TAB</a>
+        </div>
+
+        <div class="searchFB">
+            <h3 class="whereFB">Where:</h3>
+            <h3>City.Region Or Specific Airport</h3>
+            <span class="material-symbols-outlined">search</span>
+        </div>
+
+       <form action="" class="formularioBusqueda">
+            <label for="" class="tituloFormBusqueda" class="lab1">
+                Nombre
+                <input type="text" class="cuadroDeIng">
+            </label>
+            <label for="" class="tituloFormBusqueda" class="lab2">
+                Correo
+                <input type="email" class="cuadroDeIng">
+            </label>
+            <label for="" class="tituloFormBusqueda" class="lab3">
+                Dirección
+                <input type="text" class="cuadroDeIng">
+            </label>
+            <label for="" class="tituloFormBusqueda" class="lab4">
+                Número de ID
+                <input type="text" class="cuadroDeIng">
+            </label>
+       </form>
+        
+        <div class="btnFlightsFB">Search Flights</div>
+    </section>
+
     <script src="busqueda.js"></script>
 </body>
 </html>
